@@ -20,7 +20,7 @@ const Table = (props) => {
             <tbody className='x-table-tbody'>
                 {
                     (props.data || []).map(a => {
-                        return <tr>
+                        return <tr className='x-table-tbody-tr'>
                             {
                                  (props.headTitles || []).map(b => {
                                      let key = b.key

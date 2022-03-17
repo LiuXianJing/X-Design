@@ -24,6 +24,10 @@
     padding: 6px 12px;
 }
 
+.x-table-tbody-tr:hover {
+    background-color: rgb(240, 241, 241);
+}
+
 .x-table-tbody td {
     border-bottom: 1px solid #e5dede;
 }

@@ -1,0 +1,7 @@
+.x-btn {
+    padding: 3px 10px;
+    background-color: rgb(49 136 250);
+    border: 1px solid transparent;
+    border-radius: 2px;
+    cursor: pointer;
+}
