@@ -1,0 +1,29 @@
+.x-table {
+    border-spacing: 0;
+}
+
+.x-table-thead {
+    background-color: rgb(235 235 235);
+}
+
+.x-table-th {
+    position: relative;
+}
+
+.x-table-th:not(:last-child)::after {
+    position: absolute;
+    content: '';
+    top: 40%;
+    right: 2px;
+    width: 1px;
+    height: 10px;
+    background-color: gray;
+}
+
+.x-table-th, .x-table-td {
+    padding: 6px 12px;
+}
+
+.x-table-tbody td {
+    border-bottom: 1px solid #e5dede;
+}
