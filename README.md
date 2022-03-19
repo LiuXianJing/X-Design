@@ -10,6 +10,7 @@
  #  Tag
  #  Icons: CircleCloseIcon, CloseIcon, LeftOutlined, RightOutlined
 
+## 组件路径：src/components
 
 -----------
 项目运行步骤
