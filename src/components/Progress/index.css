@@ -1,0 +1,43 @@
+.x-progress-line {
+    display: flex;
+    align-items: center;
+}
+
+.x-progress-line-outer {
+    height: 8px;
+    width: 90%;
+    margin-right: 4px;
+    border-radius: 4px;
+    background-color: gray;
+}
+
+.x-progress-line-inner {
+    height: 8px;
+    border-radius: 4px;
+    background-color: blue;
+}
+
+.x-progress-circle {
+    position: relative;
+    width: 60px;
+    height: 60px;
+}
+
+.x-progress-circle-trail {
+    stroke: gray;
+    stroke-dasharray: 360px, 360px; 
+    stroke-dashoffset: 0px; 
+}
+
+.x-progress-circle-path {
+    stroke: blue;
+    stroke-dashoffset: 0px; 
+}
+
+.x-progress-circle-percent-text {
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}

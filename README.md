@@ -10,6 +10,10 @@
  #  Tag
  #  Radio
  #  Checkbox
+ #  Modal
+ #  Progress
+ #  Row
+ #  Col
  #  Icons: CircleCloseIcon, CloseIcon, LeftOutlined, RightOutlined
 
 ## 组件路径：src/components

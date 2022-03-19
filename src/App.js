@@ -8,6 +8,10 @@ import MyTag from './test/MyTag'
 import MyIcons from './test/MyIcons'
 import MyRadio from './test/MyRadio';
 import Checkbox from './components/Checkbox';
+import Row from './components/Row';
+import Col from './components/Col';
+import Progress from './components/Progress';
+import MyModal from './test/MyModal';
 
 function App() {
   return (
@@ -38,6 +42,21 @@ function App() {
       复选框
       <div>
         <Checkbox>复选1</Checkbox>
+      </div>
+      <br></br>
+      Row, Col
+      <Row>
+        <Col span={12} style={{backgroundColor: '#97cff2'}}>12</Col>
+        <Col span={12} style={{backgroundColor: '#97f2c7'}}>12</Col>
+      </Row>
+      <br></br>
+      进度条
+      <Progress type='line' percentage={60} />
+      <Progress type='circle' percentage={30} />
+      <br></br>
+      弹窗
+      <div>
+        <MyModal />
       </div>
       <br></br>
       图标
