@@ -1,0 +1,26 @@
+.x-input-container {
+    display: inline-block;
+    width: fit-content;
+    height: 32px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    padding: 0 4px;
+    line-height: 32px;
+}
+
+.x-input-container-focus {
+    border: 1px solid rgb(59, 107, 240);
+    box-shadow: 0 0 2px rgb(59, 107, 240);
+}
+
+input {
+    outline: none;
+    border: none;
+}
+
+.x-input-fix {
+    display: inline-block;
+    text-align: center;
+    height: 32px;
+    line-height: 32px;
+}

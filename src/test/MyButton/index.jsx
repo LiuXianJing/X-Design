@@ -3,7 +3,7 @@ import Button from '../../components/Button'
 
 const MyButton = () => {
 
-    return <div style={{display: 'flex', justifyContent: 'space-between'}}>
+    return <div style={{display: 'flex', width: '50%',justifyContent: 'space-between'}}>
         <Button onClick={() => {console.log('click btn!')}}>
             按钮
         </Button>

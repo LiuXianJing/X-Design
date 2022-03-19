@@ -1,0 +1,38 @@
+.x-select-container {
+    position: relative;
+    width: 170px;
+}
+
+.x-select-options-list {
+    position: absolute;
+    top: 33px;
+    border: 1px solid gray;
+    border-radius: 2px;
+    background-color: #fff;
+    width: 170px;
+}
+
+.x-select-option {
+    padding: 0px 4px;
+    height: 30px;
+    line-height: 30px;
+    cursor: pointer;
+}
+
+.x-select-option:hover {
+    background-color: #d7d3d3;
+}
+
+.x-selected-vals-tag {
+    display: inline-block;
+    position: absolute;
+    top: 6px;
+    left: 4px;
+}
+
+.no-data {
+    height: 40px;
+    text-align: center;
+    line-height: 40px;
+    color: gray;
+}
