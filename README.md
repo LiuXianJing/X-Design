@@ -8,6 +8,8 @@
  #  Select
  #  Table
  #  Tag
+ #  Radio
+ #  Checkbox
  #  Icons: CircleCloseIcon, CloseIcon, LeftOutlined, RightOutlined
 
 ## 组件路径：src/components

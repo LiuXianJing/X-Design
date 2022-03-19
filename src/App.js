@@ -6,6 +6,8 @@ import MyInput from './test/MyInput'
 import MySelect from './test/MySelect'
 import MyTag from './test/MyTag'
 import MyIcons from './test/MyIcons'
+import MyRadio from './test/MyRadio';
+import Checkbox from './components/Checkbox';
 
 function App() {
   return (
@@ -28,6 +30,14 @@ function App() {
       标签
       <div>
         <MyTag />
+      </div>
+      <br></br>
+      单选
+      <MyRadio />
+      <br></br>
+      复选框
+      <div>
+        <Checkbox>复选1</Checkbox>
       </div>
       <br></br>
       图标
