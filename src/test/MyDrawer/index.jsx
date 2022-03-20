@@ -1,17 +1,17 @@
 import { useState } from "react"
 import Button from "../../components/Button"
-import Modal from "../../components/Modal"
+import Drawer from "../../components/Drawer"
 
-const MyModal = () => {
+const MyDrawer = () => {
     const [visible, setVisible] = useState(false)
 
     return <>
         <Button type='primary' onClick={() => {setVisible(true)}}>
-            打开弹窗Modal
+            打开Drawer
         </Button>
         {
             visible ? 
-            <Modal 
+            <Drawer 
             visible={visible}
             title='标题'
             onClose={() => {setVisible(false)}}
@@ -19,10 +19,10 @@ const MyModal = () => {
                 <span>
                     内容
                 </span>
-            </Modal>
+            </Drawer>
             : null
         }
     </>
 }
 
-export default MyModal
+export default MyDrawer

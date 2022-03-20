@@ -12,6 +12,8 @@ import Row from './components/Row';
 import Col from './components/Col';
 import Progress from './components/Progress';
 import MyModal from './test/MyModal';
+import MyDrawer from './test/MyDrawer';
+import MySwitch from './test/MySwitch';
 
 function App() {
   return (
@@ -58,6 +60,14 @@ function App() {
       <div>
         <MyModal />
       </div>
+      <br></br>
+      抽屉
+      <div>
+        <MyDrawer />
+      </div>
+      <br></br>
+      开关
+      <MySwitch />
       <br></br>
       图标
       <MyIcons />

@@ -1,0 +1,57 @@
+.x-drawer-container {
+    position: fixed;
+}
+
+.x-drawer-mask {
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #dad8d8;
+    opacity: 0.6;
+}
+
+.x-drawer {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    width: 30%;
+    z-index: 9999;
+    border: 1px solid #dad8d8;
+    background-color: #fff;
+}
+
+.x-drawer-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 30px;
+    padding: 0 4px;
+    border-bottom: 1px solid #dad8d8;
+}
+
+.x-drawer-header-close {
+    cursor: pointer;
+}
+
+.x-drawer-content {
+    height: calc(100vh - 68px);
+    padding: 2px 4px;
+}
+
+.x-drawer-footer {
+    height: 30px;
+    padding: 2px 4px;
+    border-top: 1px solid #dad8d8;
+}
+
+.x-drawer-default-footer {
+    position: absolute;
+    right: 4px;
+}
+
+span {
+    display: inline-block;
+}
