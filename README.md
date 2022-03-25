@@ -25,3 +25,7 @@
 项目运行步骤
 ## npm i
 ## npm run start
+
+---
+组件使用：
+import { Button } from "x-react-design"
