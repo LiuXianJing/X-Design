@@ -14,6 +14,7 @@ import Progress from './components/Progress';
 import MyModal from './test/MyModal';
 import MyDrawer from './test/MyDrawer';
 import MySwitch from './test/MySwitch';
+import Tooltip from './components/Tooltip';
 
 function App() {
   return (
@@ -68,6 +69,13 @@ function App() {
       <br></br>
       开关
       <MySwitch />
+      <br></br>
+      提示: Tooltip
+      <div>
+        <Tooltip text='这是Tooltip text' defaultVisible>
+          <span>这个是Tooltip内容</span>
+        </Tooltip>
+      </div>
       <br></br>
       图标
       <MyIcons />
