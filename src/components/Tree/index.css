@@ -1,0 +1,16 @@
+.tree-container {}
+
+.tree-node-label {
+    display: flex;
+    cursor: pointer;
+}
+
+.tree-node-label:hover {
+    color: #00d5ff;
+}
+
+.tree-node-label-left-empty {
+    display: inline-block;
+    width: 16px;
+    height: 16px;
+}

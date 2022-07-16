@@ -15,6 +15,8 @@ import MyModal from './test/MyModal';
 import MyDrawer from './test/MyDrawer';
 import MySwitch from './test/MySwitch';
 import Tooltip from './components/Tooltip';
+import MyTree from './test/MyTree';
+
 
 function App() {
   return (
@@ -76,6 +78,9 @@ function App() {
           <span>这个是Tooltip内容</span>
         </Tooltip>
       </div>
+      <br></br>
+      树组件：Tree
+      <MyTree />
       <br></br>
       图标
       <MyIcons />
