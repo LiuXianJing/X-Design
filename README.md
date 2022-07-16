@@ -7,6 +7,7 @@
  #  Pagination
  #  Select
  #  Table
+ #  Tree
  #  Tag
  #  Radio
  #  Checkbox
@@ -17,7 +18,7 @@
  #  Col
  #  Drawer
  #  Tooltip
- #  Icons: CircleCloseIcon, CloseIcon, LeftOutlined, RightOutlined
+ #  Icons: CircleCloseIcon, CloseIcon, LeftOutlined, RightOutlined, DownOutlined, DownTriangle,         RightTriangle
 
 ## 组件路径：src/components
 
