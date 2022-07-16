@@ -1,4 +1,4 @@
-import { useState, useMemo } from 'react'
+import { useState, useMemo, Fragment } from 'react'
 import DownTriangle from '../Icons/DownTriangleIcon'
 import RightTriangle from '../Icons/RightTriangleIcon'
 import './index.css'
@@ -43,7 +43,7 @@ const Tree = (props) => {
         function loop(data, level) {
             return data.map(item => {
                 let newLevel = level + 1
-                return <>
+                return <Fragment key={JSON.stringify(item)}>
                     <span 
                     className="tree-node-label"
                     onClick={() => {clickTreeNode(item)}}
@@ -82,7 +82,7 @@ const Tree = (props) => {
                         </div>
                         : null
                     }
-                </>
+                </Fragment>
             })
         }
         arr = loop([...treeDataArr], 0)
