@@ -16,6 +16,7 @@ import MyDrawer from './test/MyDrawer';
 import MySwitch from './test/MySwitch';
 import Tooltip from './components/Tooltip';
 import MyTree from './test/MyTree';
+import Upload from './components/Upload';
 
 
 function App() {
@@ -81,6 +82,11 @@ function App() {
       <br></br>
       树组件：Tree
       <MyTree />
+      <br></br>
+      上传
+      <div>
+        <Upload accept={'image'} multiple resultType="dataUrl" />
+      </div>
       <br></br>
       图标
       <MyIcons />
