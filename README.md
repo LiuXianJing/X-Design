@@ -18,7 +18,8 @@
  #  Col
  #  Drawer
  #  Tooltip
- #  Icons: CircleCloseIcon, CloseIcon, LeftOutlined, RightOutlined, DownOutlined, DownTriangle,         RightTriangle
+ #  Upload
+ #  Icons: CircleCloseIcon, CloseIcon, LeftOutlined, RightOutlined, DownOutlined, DownTriangle, RightTriangle, ArrowUpIcon
 
 ## 组件路径：src/components
 
